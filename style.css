@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -103,9 +109,8 @@ body{
     display: flex;
 }
 
-.left-side{
+.left-side2{
     width: 45%
-
 }
 
 .left-side2 img{
@@ -493,4 +498,223 @@ animation: reflect 4s linear infinite;
       to {
         background-position: -150% 50%;
       }
+    }
+
+    @media (min-width: 768px) and (max-width:1300px){
+    
+        .first-section{
+            height: 40vh;
+            width: 100vw;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .left-side{
+            width: 50%;
+            text-align: center;
+        }
+
+        .right-side{
+            width: 50%;
+            margin-left: 30px;
+        }
+
+        .right-side img{
+            width: 100%;
+            height: 80%;
+        }
+
+        .left-side2 img{
+            width: 80%;
+        }
+
+        .right-side2{
+            font-size: 25px;
+        }
+
+        .left-side3{
+            font-size: 25px;
+        }
+
+        .right-side3 img{
+            width: 80%;
+            margin-left: 50px;
+        }
+
+        #github{
+            left: 80px;
+        }
+
+        #atom{
+           top: 40px;
+           left: 75px; 
+        }
+
+        .looks-container{
+            padding: 20px;
+        }
+    }   
+
+    @media (max-width: 768px){
+
+        img {
+    max-width: 100%;
+}
+
+html,
+body {
+    max-width: 100%;
+    margin: 0;
+}
+
+        .container{
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .first-section{
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        .left-side{
+            width: 100%;
+            margin: 0 auto;
+            text-align: center;
+            padding: auto;
+        }
+
+        .message h2{
+            font-size: 30px;
+        }
+
+        .message p{
+            font-size: 15px;
+        }
+        
+        .message button{
+            font-size: 10px;
+            padding: 5px 10px;
+        }
+
+
+        .dp{
+            margin-left: 0;
+        }
+
+        #brag{
+            margin-left: 0;
+        }
+
+        .right-side{
+            width: 100%;
+            text-align: center;
+        }
+
+        .right-side img{
+            height: 45vh;
+            width: 80vw;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .second-section{
+            margin-top: 50px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .left-side2{
+            width: 100%;
+            text-align: center;
+        }
+
+        .left-side2 img{
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .right-side2{
+            width: 100%;
+            text-align: left;
+            margin-left: 20px;
+            margin-right: auto;
+        }
+
+        .third-section{
+            text-align: center;
+            flex-direction: column;
+        }
+
+        .left-side3{
+            width: 100%;
+            margin-left: -40px;
+        }
+
+        .right-side3{
+           width: 100%;
+           text-align: center;
+}
+    #github{
+        top: 250px;
+    }
+
+    #ts{
+        top: 200px
+    }
+
+    #atom{
+        top: 220px;
+    }
+
+    .fourth-section{
+        width: 100%;
+    }
+
+    .looks-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .step{
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .fourth-section .looks{
+        font-size: 30px;
+    }
+
+    .membership-btn{
+        flex-direction: column;
+        margin-left: -20px;
+    }
+
+    footer{
+        margin-left: 1px;
+        margin-right: 1px;
+        width: 100%;
+        height: 100%;
+    }
+
+    footer button{
+        font-size: 10px;
+    }
+
+    .ending{
+        text-align: center;
+    }
+
+    .ending span{
+        margin-left: 0;
+        margin-right: -5px;
+    }
+
+    #end{
+        margin-left: 10px;
+    }
     }
