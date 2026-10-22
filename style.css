@@ -591,7 +591,8 @@ body {
         }
 
         .message p{
-            font-size: 15px;
+            font-size: 10px;
+            font-weight: normal;
         }
         
         .message button{
